@@ -1,4 +1,4 @@
-
+import Link from 'next/link';
 
 function Sobre() {
     return(
@@ -13,7 +13,7 @@ function Sobre() {
                 <div>
                     <h2>Index</h2>
 
-                    <Link href="/">
+                    <Link href="/index">
                         <a>Acessar página index </a>
                     </Link>
                 </div>
