@@ -16,6 +16,9 @@ function Header() {
                 <Link href="/sobre">
                     <a>Acessar página sobre</a>
                 </Link>
+                <Link href="/tempo">
+                    <a>Acessar página de Tempo</a>
+                </Link>
             </div>
         </div>
         
