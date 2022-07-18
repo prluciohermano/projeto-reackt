@@ -1,6 +1,6 @@
-import Link from 'next/link';
 
-function Header() {
+
+function Sobre() {
     return(
             <div>
                 <h1>Garage Control</h1>
@@ -11,10 +11,10 @@ function Header() {
                     </a>
                 </p>
                 <div>
-                    <h2>Sobre</h2>
+                    <h2>Index</h2>
 
-                    <Link href="/sobre">
-                        <a>Acessar página sobre</a>
+                    <Link href="/">
+                        <a>Acessar página index </a>
                     </Link>
                 </div>
             </div>
@@ -22,5 +22,4 @@ function Header() {
     )
 }
 
-export default Header;
-
+export default Sobre;
